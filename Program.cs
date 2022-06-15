@@ -23,3 +23,21 @@ void PrintArr(string[] array)
     }
 }
 PrintArr(newarray);
+
+/*
+string[] Create(int size)
+{
+    string[] stringArray = new string[size];
+    for (int i = 0; i < stringArray.Length; i++)
+    {
+        Console.WriteLine(" input element of your arr: ");
+        stringArray[i] = Console.ReadLine();
+    }return stringArray;
+}
+Console.WriteLine("input size");
+int s = Convert.ToInt32(Console.ReadLine());
+string[] createyourarr = Create(s);
+PrintArr(createyourarr);
+Console.WriteLine();
+PrintArr(CreateArray3symbols(createyourarr));
+*/
